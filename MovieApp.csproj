@@ -1,10 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Components\Layout\Footer.razor.css" />
+    <None Remove="Components\Layout\TopNavMenu.razor.css" />
+    <None Remove="Components\Pages\Movie.razor.css" />
+    <None Remove="Components\Ui\Paginator.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Components\Layout\Footer.razor.css" />
+    <Content Include="Components\Layout\TopNavMenu.razor.css" />
+    <Content Include="Components\Pages\Movie.razor.css" />
+    <Content Include="Components\Ui\Paginator.razor.css" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.1" />
