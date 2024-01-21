@@ -16,5 +16,4 @@ namespace MovieApp.Models
         [JsonPropertyName("total_results")]
         public int TotalResults { get; set; }
     }
-    
 }

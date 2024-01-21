@@ -1,5 +1,4 @@
 ﻿@page "/"
-
 @using MovieApp.Models
 @using MovieApp.Services
 @inject TMDBClient TMDB
@@ -63,7 +62,7 @@
     {
         if (Page < 1) Page = 1;
         else if (Page > 500) Page = 500;
-        
+
         movies = await TMDB.GetPopularMoviesAsync(Page);
     }
 

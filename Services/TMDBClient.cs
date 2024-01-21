@@ -1,5 +1,4 @@
 ﻿using MovieApp.Models;
-using MovieApp.Models;
 using System.Net.Http.Json;
 
 namespace MovieApp.Services

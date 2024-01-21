@@ -7,17 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Components\Layout\Footer.razor.css" />
-    <None Remove="Components\Layout\TopNavMenu.razor.css" />
-    <None Remove="Components\Pages\Movie.razor.css" />
-    <None Remove="Components\Ui\Paginator.razor.css" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Components\Layout\Footer.razor.css" />
-    <Content Include="Components\Layout\TopNavMenu.razor.css" />
-    <Content Include="Components\Pages\Movie.razor.css" />
-    <Content Include="Components\Ui\Paginator.razor.css" />
+    <None Include="wwwroot\images\THEMOVEDBLogo.svg" />
+    <None Include="wwwroot\js\vanilla-tilt.min.js" />
   </ItemGroup>
 
   <ItemGroup>

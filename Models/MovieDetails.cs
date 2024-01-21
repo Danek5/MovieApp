@@ -132,7 +132,7 @@ namespace MovieApp.Models
 
     public class MovieCollection
     {
-        [JsonPropertyName("id")]
+        [JsonPropertyName ("id")]
         public int Id { get; set; }
 
         [JsonPropertyName("name")]
